@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://getmyhealthback.netlify.app/sitemap-pages.xml</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://getmyhealthback.netlify.app/</loc>
     <lastmod>2025-08-26</lastmod>
-  </sitemap>
-</sitemapindex>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Compare blog/article -->
+  <url>
+    <loc>https://getmyhealthback.netlify.app/compare.html</loc>
+    <lastmod>2025-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Example future blog pages -->
+  <url>
+    <loc>https://getmyhealthback.netlify.app/blog1.html</loc>
+    <lastmod>2025-08-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://getmyhealthback.netlify.app/blog2.html</loc>
+    <lastmod>2025-08-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
